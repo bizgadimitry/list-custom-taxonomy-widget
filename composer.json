@@ -1,0 +1,23 @@
+{
+  "name" : "blueblazeassociates/list-custom-taxonomy-widget",
+  "description" : "The List Custom Taxonomy Widget is a quick and easy way to display custom taxonomies.",
+  "type" : "wordpress-plugin",
+  "homepage" : "https://wordpress.org/plugins/list-custom-taxonomy-widget/",
+  "license" : "GPL-2.0+",
+  "keywords" : [
+    "categories",
+    "category",
+    "custom categories",
+    "custom category",
+    "custom post type categories",
+    "custom post types",
+    "custom tax",
+    "custom taxonomy",
+    "post types",
+    "sidebar",
+    "Taxonomy",
+    "widget"
+  ]
+}
+
+
