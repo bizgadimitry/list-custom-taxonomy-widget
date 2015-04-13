@@ -285,7 +285,11 @@ class lctwidget_Taxonomy_Dropdown_Walker extends Walker {
 	var $tree_type = 'category';
 	var $db_fields = array ( 'id' => 'term_id', 'parent' => 'parent' );
 
-	function start_el( &$output, $term, $depth, $args ) {
+// BEGIN egifford 2014_08_06: Fixing PHP Strict errors.
+// See http://wordpress.org/support/topic/strict-standards-warnings
+//	function start_el( &$output, $term, $depth, $args ) {
+	function start_el( &$output, $object, $depth = 0, $args = array(), $current_object_id = 0 ) {
+// END egifford 2014_08_06
 		$url = get_term_link( $term, $term->taxonomy );
 
 		$text = str_repeat( '&nbsp;', $depth * 3 ) . $term->name;
